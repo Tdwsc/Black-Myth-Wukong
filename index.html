@@ -7,20 +7,39 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div id="p1">
-        <video id="background-1" autoplay loop muted playinline src="image/background-1.mp4"></video>
+    <div id="main" class="main">
+        <div id="p1" class="layout">
+            <video id="background-1" autoplay loop muted playinline src="image/background-1.mp4"></video>
+            <div id="home-1">
+                <div class="home-bg">
+                    <img id="home-2" src="image/home-logo.png" alt="">
+                </div>
         
-    </div>
-
-    <div id="home-1">
-        <div class="home-bg">
-            <img id="home-2" src="image/home-logo.png" alt="">
+                <div class="home-bg">
+                    <img id="home-3" src="image/buy-logo.png" alt="">
+                </div>
+            </div>
         </div>
+    
+        <div id="p2" class="layout">
 
-        <div class="home-bg">
-            <img id="home-3" src="image/buy-logo.png" alt="">
+        </div>
+        <div id="p3" class="layout">
+            <video id="p3-video-preview" autoplay loop muted playinline src="image/gamesci_2024_PV07_preview.mp4"></video>
+            <div id="p3-video-filter"><img id="p3-video-filter-item" src="image/video-overlay-bg.png" alt=""></div>
+        </div>
+        
+
+    </div>
+    <div id="video-modal">
+        <div id="video-modal-close">
+            <img src="image/video-play-btn.png" alt="">
+        </div>
+        <div id="video-modal-video">
+            <video id="video-modal-item" controls loop muted playinline src="image/video-source.mp4"></video>
         </div>
     </div>
+    
 </body>
 <script src="script/script.js"></script>
 </html>
