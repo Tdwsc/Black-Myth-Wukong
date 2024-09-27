@@ -117,7 +117,17 @@ body{
     z-index:4;
 }
 
-
+#nav-pane{
+    width: fit-content;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
